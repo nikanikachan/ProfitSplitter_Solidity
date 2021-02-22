@@ -20,7 +20,7 @@ In this screenshot, I am using my local network to send 10 ETH to 3 diff address
 
 After clicking on the `deposit` function in the associateprofit contract, HR (wallet address with index 0) has successfully sent 3.33 ETH each to the 3 target addresses (address with index 1,2,3). See below sreenshot.
 
-![2](Screenshots/profitsplitter_newbal_edit)
+![2](Screenshots/profitsplitter_newbal_edit.png)
 
 The whole process is also outlined here using a profit sample of 5 ETH  that was equally distributed to the 3 addresses (note that the starting and ending balance is different from the screenshots beforehand because of the transactions that happened in between):
 
@@ -47,7 +47,7 @@ Address amounts AFTER tiered profit splitting:
 ![5](Screenshots/tiered_bal_after_EDIT.png)
 
 Finally, See GIF below on how the contract works based on a 10 ETH profit. Note that the contract was deployed in my local network. 
-![6](Screenshots/tieredsplitter.png)
+![6](Screenshots/tieredsplitter.gif)
 
 
 -----------------------------------------
@@ -66,4 +66,8 @@ After runnning the `distribute` function, there are now 250 shares in the employ
 ![8](Screenshots/def_equity_distribute.png)
 
 See GIF below for the whole contract process. Note that to run this on the Kovan testnetwork, you will need some test ETH.
-![9](Screenshots/def_equity.png)
+![9](Screenshots/def_equity.gif)
+
+You can also view this transaction in a block explorer:
+[This transaction in a block explorer](https://kovan.etherscan.io/tx/0x229d43075cb456e8c0d172bb802cd7444202442ca8038f16644ed7f1b1b17bc3)
+
